@@ -1,0 +1,44 @@
+{
+  "name": "ionic4-mask-directive",
+  "version": "1.0.0",
+  "description": "directive for mask ion-input on ionic4",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "npm run ngc",
+    "submit": "npm publish",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoarn/ionic4-mask-directive.git"
+  },
+  "keywords": [
+    "ionic4",
+    "ion-input",
+    "mask"
+  ],
+  "author": "Eduardo Miranda Soares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoarn/ionic4-mask-directive/issues"
+  },
+  "homepage": "https://github.com/eduardoarn/ionic4-mask-directive#readme",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@angular/common": "4.2.4",
+    "@angular/compiler": "4.2.4",
+    "@angular/compiler-cli": "4.2.4",
+    "@angular/core": "4.2.4",
+    "@angular/forms": "4.2.4",
+    "@angular/platform-browser": "4.2.4",
+    "@types/node": "6.0.49",
+    "rxjs": "5.4.2",
+    "ts-node": "3.2.0",
+    "typescript": "2.4.2"
+  }
+}
