@@ -1,4 +1,4 @@
-# ionic2-mask-directive
+# ionic4-mask-directive
 
 Ionic4MaskDirective help you add mask on ion-input with just a directive and a very simple configuration.
 
@@ -13,12 +13,12 @@ npm i ionic4-mask-directive --save
 Import the directive into your app module.
 
 ```typescript
-import {Ionic2MaskDirective} from "ionic2-mask-directive";
+import {Ionic4MaskDirective} from "ionic2-mask-directive";
 
 @NgModule({
     declarations: [
         MyApp,
-        Ionic2MaskDirective,
+        Ionic4MaskDirective,
         HomePage
     ],
     imports: [
